@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="100" viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glow2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <style>
+    .text { 
+      font-family: Arial, sans-serif; 
+      font-weight: bold; 
+      fill: url(#glow2);
+      filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.5));
+    }
+  </style>
+  <text x="50%" y="50%" text-anchor="middle" class="text" font-size="48">
+    STARFLOOM
+  </text>
+  <text x="50%" y="80%" text-anchor="middle" class="text" font-size="36">
+    SEASON 2
+  </text>
+</svg>

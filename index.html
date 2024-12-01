@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Exotic - Epic Gaming Adventures</title>
+    <meta name="description" content="Join Team Exotic for epic gaming adventures and incredible map experiences">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Background Animation -->
+    <div class="bg-animation"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#" class="logo-link">
+                    <img src="assets/images/starfloom-logo.svg" alt="Team Exotic" class="logo-image">
+                </a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links">
+                <a href="#maps" class="nav-link">Maps</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#tutorials" class="nav-link">Tutorials</a>
+                <a href="#community" class="nav-link">Community</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Welcome to Team Exotic</h1>
+            <p class="hero-subtitle fade-in">Experience epic gaming adventures with our innovative maps and challenges</p>
+            <div class="hero-cta fade-in">
+                <a href="#maps" class="btn btn-primary">
+                    Explore Our Maps
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Maps Section -->
+    <section id="maps" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Maps</h2>
+            <div class="map-grid">
+                <!-- Tropical Season 1 -->
+                <div class="map-card tropical" data-aos="fade-up">
+                    <div class="map-image">
+                        <img src="assets/images/tropical-map.jpg" alt="Tropical Paradise Map" class="map-img">
+                        <div class="map-overlay">
+                            <div class="map-details">
+                                <span class="map-badge">Season 1 - Latest Release</span>
+                                <p>Explore lush jungles, pristine beaches, and hidden waterfalls in this tropical paradise. Navigate through dense vegetation, discover ancient ruins, and experience the perfect blend of beauty and tactical gameplay.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-content">
+                        <h3>Starfloom | Tropical Paradise</h3>
+                        <div class="map-stats">
+                            <span><i class="fas fa-map"></i> 4 Unique Zones</span>
+                            <span><i class="fas fa-tree"></i> Dynamic Weather</span>
+                            <span><i class="fas fa-compass"></i> Hidden Paths</span>
+                        </div>
+                        <a href="#" class="map-link">
+                            Explore Map <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Alien Season 2 -->
+                <div class="map-card alien" data-aos="fade-up" data-aos-delay="100">
+                    <div class="map-image">
+                        <img src="assets/images/alien-map.jpg" alt="Alien Invasion Map" class="map-img">
+                        <div class="map-overlay">
+                            <div class="map-details">
+                                <span class="map-badge">Season 2 - Coming Soon</span>
+                                <p>Enter an otherworldly battlefield where alien technology meets human ingenuity. Navigate through bioluminescent landscapes, alien structures, and mysterious portals in this extraterrestrial combat zone.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-content">
+                        <h3>Starfloom | Alien Invasion</h3>
+                        <div class="map-stats">
+                            <span><i class="fas fa-rocket"></i> Alien Tech</span>
+                            <span><i class="fas fa-globe"></i> Portal System</span>
+                            <span><i class="fas fa-bolt"></i> Energy Fields</span>
+                        </div>
+                        <a href="#" class="map-link">
+                            Coming Soon <i class="fas fa-clock"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Heist Season 3 -->
+                <div class="map-card heist" data-aos="fade-up" data-aos-delay="200">
+                    <div class="map-image">
+                        <img src="assets/images/heist-map.jpg" alt="Ultimate Heist Map" class="map-img">
+                        <div class="map-overlay">
+                            <div class="map-details">
+                                <span class="map-badge">Season 3 - Announcement</span>
+                                <p>Plan the perfect heist in this high-stakes urban environment. Master the art of stealth and strategy as you navigate through a heavily guarded facility with multiple entry points and escape routes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-content">
+                        <h3>Starfloom | Ultimate Heist</h3>
+                        <div class="map-stats">
+                            <span><i class="fas fa-user-secret"></i> Stealth Mechanics</span>
+                            <span><i class="fas fa-door-open"></i> Multiple Routes</span>
+                            <span><i class="fas fa-shield-alt"></i> Security Systems</span>
+                        </div>
+                        <a href="#" class="map-link">
+                            Stay Tuned <i class="fas fa-bell"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
